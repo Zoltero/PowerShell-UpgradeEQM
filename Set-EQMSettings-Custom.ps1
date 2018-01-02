@@ -28,7 +28,7 @@ $NAVUpgrade_DatabaseServer = 'localhost'
 $NAVUpgrade_DatabaseInstance = 'SQL2016'
 
 # Specifies the name of the database that is upgraded
-$NAVUpgrade_DatabaseName = 'Local_EQM100_W1_2017_BETAXX'
+$NAVUpgrade_DatabaseName = 'Local_EQM100_W1_2017_BETA'
 
 # Specifies the name of the database to be backuped
 $NAVUpgrade_DatabaseNameToUpgrade = 'EQM100_W1_2017_BETA'
