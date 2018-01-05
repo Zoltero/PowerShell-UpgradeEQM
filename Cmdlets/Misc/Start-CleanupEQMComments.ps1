@@ -35,12 +35,12 @@
             -wrkNavServerInstance $localNAVServerInstance `
             -WorkingDirectory $WorkingDirectory
 
-        $navFilter = 'Version List=*@EQM*'
-        Write-Verbose "Compiling EQM objectgs in $localNAVServerInstance"
-        Compile-NAVApplicationObject2 `
-            -ServerInstance $localNAVServerInstance `
-            -LogPath $WorkingDirectory `
-            -Filter $navFilter
+        #$navFilter = 'Version List=*@EQM*'
+        #Write-Verbose "Compiling EQM objectgs in $localNAVServerInstance"
+        #Compile-NAVApplicationObject2 `
+        #    -ServerInstance $localNAVServerInstance `
+        #    -LogPath $WorkingDirectory `
+        #    -Filter $navFilter
     }
 }
 
